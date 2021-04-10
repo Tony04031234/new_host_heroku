@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title> My Hosting </title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+  
+  </head>
+    <body >
+      <div id ="ui">
+        <h2>Login </h2>
+
+        <p>username</p>
+        <input class="username" v-model = "user">
+        
+        <p>password</p>
+        <input class="pass" v-model = "pass">
+
+        <button class = "btn" > Submit</button>
+        
+        <p> Or sign up here </p>
+        <button class = "btn-2" onclick="location.href='signup.html'"> GO </button>
+
+        <hr>
+
+        <p>Welcome {{user}}</p>
+
+      </div>
+
+      <script src="js/scripts.js"></script>
+  </body>
+  
+</html>
